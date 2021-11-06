@@ -25,4 +25,12 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-The code is licensed under the MIT License.
+Book models and views are stored in the app called Book.
+Accounts models and views are stored in the app called Accounts.
+
+Media is stored in static/templates and it is hosted on an amazons3 bucket.
+
+There are 3 types of users, Admin, Child and Adult. Admin does not have a register page and has to be made admin by a superuser in order to edit books. The admin can mark the books as Adult Content upon upload in order to restrict the books from the scope of a Child user.
+
+
+
