@@ -1,0 +1,15 @@
+<h1>Welcome {{user}}</h1>
+
+{% if user.is_authenticated%}
+
+
+
+{% for book in books %}
+
+{%endfor%}
+
+<a href="{% url 'logout' %}">Logout</a> <br>
+{% else %}
+<a href="{% url 'register' %}">Register</a> <br>
+<a href="{% url 'login' %}">Login</a> 
+{% endif %}
