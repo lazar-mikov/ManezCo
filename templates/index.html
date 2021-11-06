@@ -4,9 +4,10 @@
 
 
 
-{% for book in books %}
+<a class="btn btn-sm btn-info" href="{% url 'list'  %}">View available books</a>
 
-{%endfor%}
+<br>
+<br>
 
 <a href="{% url 'logout' %}">Logout</a> <br>
 {% else %}
