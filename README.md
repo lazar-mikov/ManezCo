@@ -6,7 +6,7 @@ This is a multiple user registration example in django that I created for ManezC
 To run the project:
 1. Clone the repository
 ```bash
-git clone https://github.com/nusrat-borsha/Django-custom-registration.git
+git clone https://github.com/lazar-mikov/ManezCo
 ```
 2. Install the requirements
 ```bash
